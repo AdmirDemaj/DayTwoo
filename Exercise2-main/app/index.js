@@ -14,8 +14,12 @@ const SumResult = sum.summation(ConcatNumbers)
 setTimeout(() =>{
     console.log(`Concated Numbers Are:   ${ConcatResult}`);
 setTimeout(() => {
-    console.log(`Sum is:   ${SumResult}`);
-},4000);
+    console.log(`Calculating Sum`);
+    setTimeout(() => {
+        
+        console.log(`Sum is:   ${SumResult}`);
+    },3000);
+},2000);
 },2000);
 
 
