@@ -9,8 +9,8 @@ const numbers = ObjectNumbers.nums
 
 fs.readFile('./array.json', {encoding: 'utf-8'}, (err, data) => {
     if(err){
-        console.error('ERROR!!!')
-        console.log(err)
+        console.error('ERROR!!! Array Not Found')
+        
     } else {
         console.error('GOT DATA FROM ARRAY.JSON')
 
